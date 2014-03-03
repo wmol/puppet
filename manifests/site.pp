@@ -42,7 +42,7 @@ node default {
   #   class { 'my_class': }
 }
 
-node 'agent.vagrant.com' {
+node 'wmol.vagrant.com' {
   include java
   include jboss_as
   include wget
